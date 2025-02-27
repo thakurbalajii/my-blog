@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">My Blog</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="admin.html">Admin</a></li>
+                <li><a href="post.html">Post</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><input type="text" placeholder="Search..."></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <!-- Contact section Design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact Me</h2>
+
+        <form action="" name="contactForm">
+            <div class="input-box">
+                <input type="text" name="fullname" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+
+            <div class="input-box">
+                <input type="tel" name="mobile" placeholder="Mobile Number" required>
+                <input type="text" name="subject" placeholder="Email Subject" required>
+            </div>
+
+            <textarea name="message" cols="30" rows="15" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section> 
+
+
+    <footer>
+        <p>&copy; 2025 My Blog. All rights reserved.</p>
+    </footer>
+    <script src="contact.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <header>
+        <h1>Admin Panel</h1>
+        <nav>
+            
+            <ul>
+              
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Categories</a></li>
+                <li><a href="post.html">Post</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                
+            </ul>
+            
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Manage Blog Posts</h2>
+        
+        <form id="post-form">
+            <input type="text" id="post-title" placeholder="Post Title" required>
+            <textarea id="post-content" placeholder="Post Content" required></textarea>
+            <input type="text" id="post-image" placeholder="Image URL" required>
+            <button type="submit">Add Post</button>
+        </form>
+
+        <h3>Existing Posts</h3>
+        <ul id="post-list">
+            <!-- Existing posts will be listed here -->
+           
+            
+        </ul>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 My Blog. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

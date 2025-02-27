@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    gap: 500px;
+}
+
+header h1 {
+    /* margin-left: 4px; */
+    font-size: 2rem;
+}
+
+nav ul {
+    gap: -20px;
+    list-style: none;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+    /* text-decoration: underline; */
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+form button {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+form button:hover {
+    background: #555;
+}
+
+h3 {
+    margin-top: 40px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+ul#post-list {
+    list-style: none;
+    padding: 0;
+}
+
+ul#post-list li {
+    background: #f4f4f4;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+ul#post-list li h4 {
+    margin: 0 0 10px;
+    font-size: 1.2rem;
+}
+
+ul#post-list li p {
+    margin: 0;
+}
+
+ul#post-list li img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+ul#post-list li .edit-button,
+ul#post-list li .delete-button {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-right: 5px;
+}
+
+ul#post-list li .edit-button:hover,
+ul#post-list li .delete-button:hover {
+    background: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 21px 0;
+    background: #333;
+    color: #fff;
+    margin-top: 25%;
+}
+
+footer p {
+    margin: 0;
+}
